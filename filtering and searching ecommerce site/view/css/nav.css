@@ -1,0 +1,36 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Heading pannel */
+.heading {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+.logoName {
+    color: white;
+    justify-content: flex-start;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin: 0px 0px 0px 10px;
+}
+
+.heading .login {
+    float: right;
+    margin: 0px 0px 0px 604px;
+    width:80px;
+}
+
+.heading .search {
+    padding: 10px 100px;
+    margin: 0px 0px 0px 600px;
+}
+/* Heading pannel End */

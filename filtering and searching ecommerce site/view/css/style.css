@@ -1,0 +1,140 @@
+
+section
+{
+ margin: auto;
+
+}
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+
+}
+
+section ul li {
+  float: left;
+}
+
+section ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+section ul li a:hover {
+  background-color: rgba(214, 28, 15, 0.8);
+}
+
+.product
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 50px;
+}
+.product .itemBox
+{
+  position: relative;
+  width: 450px;
+  height: 550px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.4s;
+  width: 100%;
+  border-radius: 25px;
+  margin: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+#tt{
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.text {
+  padding: 0 50px;
+  visibility: hidden;
+}
+
+.flip-front, 
+.flip-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+
+.flip-front {
+    color: #313131;
+    border: 2px solid #313131;
+    background-color: transparent;
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.flip-back {
+  color: #fff;
+  background-color: #313131;
+  border: 2px solid #313131;
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.btn:hover .flip-front {
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -ms-transform: rotateX(-90deg) translateZ(25px);
+    -o-transform: rotateX(-90deg) translateZ(25px);
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
+.btn:hover .flip-back {
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}

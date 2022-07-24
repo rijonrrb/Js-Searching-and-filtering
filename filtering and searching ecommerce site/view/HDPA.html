@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../view/js/search.js"></script>
+    <script src="https://kit.fontawesome.com/3dfa0d7dbe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../view/css/cstyle.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nemosis</title>
+  </head>
+  <body>
+   <div class="heading">
+      
+           <h1 class="logoName">Nemesis</h1>
+           <input class="search" id="search" type="text" placeholder="Search here" onkeyup="search()">
+           <input class="login" type="button" value="login">
+
+   </div>
+<div class="Navi">
+    <ul>
+      <li><a class="active" href="../view/index.php">Home</a></li>
+            <li><a href="../view/RAAM.html">RAM</a></li>
+            <li><a href="../view/SSAD.html">SSD</a></li>
+            <li><a href="../view/GPUA.html">GPU</a></li>
+            <li><a href="#about">HEADPHONE</a></li>
+    </ul>
+</div>
+      <div class="container">
+        <div id="filters">
+          <div id="Box">
+          <div class="type">
+            <fieldset>
+             <legend>Brand</legend>
+            <select id="type">
+              <option value=""> Select Type </option>
+              <option value="Voyager">Voyager</option>
+              <option value="Logitech">Logitech</option>
+              <option value="Asus">Asus</option>
+            </select>
+          </fieldset>
+          </div>
+
+            <div class="date">
+            <fieldset>
+             <legend>Date</legend>
+            <select id="date">
+              <option value=""> Releasing Year </option>
+              <option value="2022t">2022</option>
+              <option value="2021t">2021</option>
+              <option value="2020t">2020</option>
+              <option value="2019t">2019</option>
+              <option value="2018t">2018</option>
+              <option value="2017t">2017</option>
+              <option value="2016t">2016</option>
+            </select>
+          </fieldset>
+          </div>
+
+          <div class="size">
+            <fieldset>
+            <legend>Type: </legend>
+            <div id="size">
+                  <label class="chk">Bluetooth Headphones
+                    <input type="checkbox" value="Bluetooth"/>
+                      <span class="checkmark"></span>
+                  </label>
+                  <label class="chk">Wire Headphone
+                    <input type="checkbox" value="Wire"/>
+                      <span class="checkmark"></span>
+                  </label>
+                  <label class="chk">Earbuds
+                    <input type="checkbox" value="Earbuds"/>
+                      <span class="checkmark"></span>
+                  </label>
+            </div>
+            </fieldset>
+          </div>
+          <div class="price">
+            <fieldset>
+              <legend>Price Range</legend>
+           <div>
+            <div class="price-input">
+              <input type="text" value="" id="price-min" placeholder="Minimun Price $" />
+            </div>&nbsp;<b>-<b>&nbsp;
+            <div class="price-input">
+              <input type="text" value="" id="price-max" placeholder="Maximum Price $" />
+            </div>
+          </div>
+          </fieldset>
+        </div>
+
+
+
+      </div>
+        </div>
+        <div id="goods"></div>
+      </div>
+    <script src="../view/js/HDPA.js"></script>
+  </body>
+</html>

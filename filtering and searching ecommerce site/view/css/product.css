@@ -1,0 +1,153 @@
+@media (max-width: 940px) {
+  .container {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+ 
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+ 
+  .left-column img {
+    width: 300px;
+    right: 0;
+    top: -65px;
+    left: initial;
+  }
+}
+ 
+@media (max-width: 535px) {
+  .left-column img {
+    width: 220px;
+    top: -85px;
+  }
+}
+
+table {
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+th{
+  background-color: rgba(128, 170, 255, 0.5);
+  color: rgb(0, 43, 128);
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+.Navi{
+    text-align: center;
+    background-color: rgba(90, 56, 100, 0.8);
+    margin-bottom: 20px;
+
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  margin-top: 25px;
+  padding: 5px 26px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 80px;
+  transition-duration: 0.5s;
+  transform: scale(1.5,1.5);
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(0, 230, 115);
+  transform: scale(2,2);
+}
+
+.btnn {
+  color: black;
+
+
+}
+a {
+  text-decoration: none;
+}
+.Body{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+.left-column {
+  width: 65%;
+  position: relative;
+}
+
+
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 30px;
+
+}
+
+/* Product Price */
+.product-price {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+ 
+.cart-btn {
+  display: inline-block;
+  background-color: navy;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition-duration: 0.7s;
+}
+.cart-btn:hover {
+  background-color: blue;
+}
+.Description{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px;
+  padding: 10px 10px;
+}
