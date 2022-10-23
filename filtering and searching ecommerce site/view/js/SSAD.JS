@@ -1,4 +1,4 @@
-const filters = document.querySelector("#filters");
+const filters = document.querySelector("#Box");
 
 filters.addEventListener("input", filterGoods);
 
@@ -27,23 +27,30 @@ function outputGoods(goods) {
   document.getElementById("goods").innerHTML = goods
     .map(
       (n) => `
-    <div class ="itemBox">
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+  <div class ="itemBox">
     <div class="card">
-      <img src="${n.image}">
+    <img src="${n.image}">
       <div id="tt">
-      <h3>${n.name}</h3>
-      <p>${n.des}</p>
-      <br>
-      <br>
-      <div>
-        <a href="${n.link}" class="tbtn">
-        <span class="text">Text</span>
-        <span class="flip-front">Price-${n.cost}$</span>
-        <span class="flip-back">Go for Details..</span>
-        </a><br><br><br><br>
-      </div>
+        <h4>${n.name}</h4>
+        <p>${n.des}</p>
+        <br>
+        <br>
+          <div>
+          <a href="${n.link}" class="tbtn">
+          <span class="text">Text</span>
+          <span class="flip-front">Price-${n.cost}$</span>
+          <span class="flip-back">Go for Details..</span>
+          </a>
+          <br>
+          <br>
+          <br>
+          <br>
+          </div>
+     </div>
     </div>
-    </div>
+  </div>
+</div>
   `
     )
     .join("");
