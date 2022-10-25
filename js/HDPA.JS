@@ -61,20 +61,20 @@ const DATA = [
   name: "Voyager Focus UC",
   cost: 371,
   type: "Voyager",
-  image:"../view/css/Pictures/hdp1.jpg",
+  image:"./css/Pictures/hdp1.jpg",
   size: "Bluetooth",
   des: "Sterio Bluetooth Headset",
-  link: "../view/hd1.php",
+  link: "./Controller/hd1.php",
   date: "2020t"
 },
 {
   name: "Asus Gaming Headset ROG",
   cost: 99,
   type: "Asus",
-  image:"../view/css/Pictures/hdp2.jpg",
+  image:"./css/Pictures/hdp2.jpg",
   size: "Wire",
   des: "Theta 7.1",
-  link: "../view/hd2.php",
+  link: "./Controller/hd2.php",
   date: "2021t"
 
 },
@@ -82,20 +82,20 @@ const DATA = [
   name: "Asus ROG Strix Fusion 700 Virtual",
   cost: 99,
   type: "Asus",
-  image:"../view/css/Pictures/hdp3.jpg",
+  image:"./css/Pictures/hdp3.jpg",
   size: "Bluetooth",
   des: "7.1 LED",
-  link: "../view/hd3.php",
+  link: "./Controller/hd3.php",
   date: "2020t"
 },
 {
   name: "Logitech G432",
   cost: 99,
   type: "Logitech",
-  image:"../view/css/Pictures/hdp4.jpg",
+  image:"./css/Pictures/hdp4.jpg",
   size: "Wire",
   des: "Sound Gaming Headset PC PS4XBOX PS5",
-  link: "../view/hd4.php",
+  link: "./Controller/hd4.php",
   date: "2019t"
 }
 ];
