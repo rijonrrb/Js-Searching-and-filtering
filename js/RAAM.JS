@@ -32,7 +32,7 @@ function outputGoods(goods) {
     <div class="card">
     <img src="${n.image}">
     <div id="tt">
-    <h4>${n.name}</h4>
+    <h5>${n.name}</h5>
     <p>${n.des}</p>
     <br>
     <br>

@@ -32,7 +32,7 @@ function outputGoods(goods) {
     <div class="card">
     <img src="${n.image}">
     <div id="tt">
-    <h4>${n.name}</h4>
+    <h5>${n.name}</h5>
     <p>${n.des}</p>
     <br>
     <br>
@@ -68,7 +68,7 @@ const DATA = [
   date: "2020t"
 },
 {
-  name: "PNY CS900 120GB 2.5 SATA III Internal SSD",
+  name: "PNY CS900 120GB 2.5 SATA III SSD",
   cost: 22,
   type: "PNY",
   image:"./css/Pictures/ssd2.jpg",
