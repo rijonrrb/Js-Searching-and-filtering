@@ -18,31 +18,28 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../HDPA.html"> HEADPHONE </a> / <a href="./hd3.php">Asus Gaming Headset ROG</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/hdp3.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/hdp3.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>Asus Gaming Headset ROG</h2>
           <p><b>Key Features</b></p>
           <p>Model: ROG Strix Fusion 700<br>
             Supports PC, Console, MAC, PS4, Nintendo Switch & Mobile <br>
             Bluetooth 4.2, RGB light synchronization <br>
             Hi-Fi-grade ESS DAC and amp<br>
-            Virtual 7.1 surround sound<br>
-            
-          </div>
-
-          
+            Virtual 7.1 surround sound<br>           
+          </div> 
           <!-- Product Pricing -->
-          <div class="product-price">
+          <div class="product-price mb-5">
             <span>99$</span>
             <a href="#" class="cart-btn">Add to cart</a>
           </div>
         </div>
-
-
+       </div>
       </div>
       <div class = "tab">
         <table style="border: none;">
@@ -53,7 +50,6 @@
           <tr>
             <td>Weight</td>
             <td>384g</td>
-
           </tr>
           <tr>
             <td>Color</td>

@@ -18,31 +18,28 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../HDPA.html"> HEADPHONE </a> / <a href="./hd1.php">Voyager Focus UC</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/hdp1.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/hdp1.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>Voyager Focus UC</h2>
           <p><b>Key Features</b></p>
           <p>Model: Poly - Voyager Focus 2 UC USB-A Headset with Stand (Plantronics)<br>
             Bluetooth (Stereo) Headset with Boom Mic <br>
             USB-A PC/Mac Compatible <br>
             Active Noise Canceling<br>
-            Works w/ Teams, Zoom (Certified) & More<br>
-            
+            Works w/ Teams, Zoom (Certified) & More<br>           
           </div>
-
-          
           <!-- Product Pricing -->
-          <div class="product-price">
+          <div class="product-price mb-5">
             <span>371$</span>
             <a href="#" class="cart-btn">Add to cart</a>
           </div>
         </div>
-
-
+       </div>
       </div>
       <div class = "tab">
         <table style="border: none;">
@@ -53,7 +50,6 @@
           <tr>
             <td>Ear Placement</td>
             <td>8GB</td>
-
           </tr>
           <tr>
             <td>Connectivity</td>
