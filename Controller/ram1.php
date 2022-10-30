@@ -34,8 +34,6 @@
             CAS Latency: CL16<br>
           Voltage 1.35V</p>
         </div>
-
-
         <!-- Product Pricing -->
         <div class="product-price mb-5">
           <span><strong>26$</strong></span>

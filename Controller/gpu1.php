@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../GPUA.html"> GPU </a> / <a href="./gpu1.php">Zotac GeForce GT 710</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/gpu1.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/gpu1.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>Zotac GeForce GT 710</h2>
           <p><b>Key Features</b></p>
           <p>Model: GeForce® GT 710<br>
@@ -31,18 +32,14 @@
             Video Memory 2GB DDR3 <br>
             Memory Bus 64-bit<br>
             Engine Clock 954 MHz<br>
-
           </div>
-
-
           <!-- Product Pricing -->
-          <div class="product-price">
+           <div class="product-price mb-5">
             <span>99$</span>
             <a href="#" class="cart-btn">Add to cart</a>
           </div>
         </div>
-
-
+       </div>
       </div>
       <div class = "tab">
         <table style="border: none;">

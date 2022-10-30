@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../GPUA.html"> GPU </a> / <a href="./gpu4.php">Gigabyte GTX 1050 Ti</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/gpu4.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/gpu4.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>GIGABYTE GeForce GT 730</h2>
           <p><b>Key Features</b></p>
           <p>Model: Gigabyte GeForce® GTX 1050 Ti OC 4G <br>
@@ -32,18 +33,14 @@
             Resolution: 7680x4320
             <br>
             Dual-link DVI-D,HDMI,Display Port<br>
-            
           </div>
-
-          
           <!-- Product Pricing -->
-          <div class="product-price">
+          <div class="product-price mb-5">
             <span>99$</span>
             <a href="#" class="cart-btn">Add to cart</a>
           </div>
         </div>
-
-
+       </div>
       </div>
       <div class = "tab">
         <table style="border: none;">

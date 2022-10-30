@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../GPUA.html"> GPU </a> / <a href="./gpu2.php">MSI GT 710</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/gpu2.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/gpu2.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>MSI GT 710</h2>
           <p><b>Key Features</b></p>
           <p>Model: MSI GT 710 2GD3H LP<br>
@@ -31,18 +32,14 @@
             D-Sub x 1/ HDMI x 1/ DL-DVI-D x 1 <br>
             Predator: In-game video recording<br>
             Lower temperature and higher efficiency<br>
-            
           </div>
-
-          
           <!-- Product Pricing -->
-          <div class="product-price">
+          <div class="product-price mb-5">
             <span>99$</span>
             <a href="#" class="cart-btn">Add to cart</a>
           </div>
         </div>
-
-
+       </div>
       </div>
       <div class = "tab">
         <table style="border: none;">
