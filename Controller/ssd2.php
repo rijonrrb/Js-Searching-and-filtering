@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../SSAD.html"> SSD </a> / <a href="./ssd2.php">PNY CS900 120GB 2.5" SATA III Internal SSD</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/ssd2.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/ssd2.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>PNY CS900 120GB 2.5" SATA III Internal SSD</h2>
           <p><b>Key Features</b></p>
           <p>Model: PNY CS900<br>
@@ -32,16 +33,13 @@
             Interface SATA-III 6Gb/s<br>
           NAND Type 3D TLC</p>
         </div>
-
-
         <!-- Product Pricing -->
-        <div class="product-price">
+        <div class="product-price mb-5">
           <span>23$</span>
           <a href="#" class="cart-btn">Add to cart</a>
         </div>
       </div>
-
-
+     </div>
     </div>
     <div class = "tab">
       <table style="border: none;">

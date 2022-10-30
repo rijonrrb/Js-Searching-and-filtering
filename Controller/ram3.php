@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../RAAM.html"> RAM </a> / <a href="./ram3.php">GeIL POLARIS RGB 16GB DDR5 RAM</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/ram3.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/ram3.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-5">
           <h2>GeIL POLARIS RGB 16GB DDR5 4800MHz Gaming RAM</h2>
           <p><b>Key Features</b></p>
           <p>MPN: GOSG532GB4800C40DC<br>
@@ -36,13 +37,12 @@
 
        
        <!-- Product Pricing -->
-       <div class="product-price">
-        <span>27$</span>
+       <div class="product-price mb-5">
+        <span><strong>27$</strong></span>
         <a href="#" class="cart-btn">Add to cart</a>
       </div>
     </div>
-
-
+</div>
   </div>
   <div class = "tab">
     <table style="border: none;">

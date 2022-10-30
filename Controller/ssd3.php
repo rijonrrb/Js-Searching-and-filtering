@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../SSAD.html"> SSD </a> / <a href="./ssd3.php">Team GX1 120GB 2.5" SATA III SSD</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/ssd3.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/ssd3.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>Team GX1 120GB 2.5" SATA III SSD</h2>
           <p><b>Key Features</b></p>
           <p>MPN: T253X1120G0C101<br>
@@ -33,16 +34,13 @@
             Slim form factor<br>
           Supports S.M.A.R.T. & TRIM</p>
         </div>
-
-
         <!-- Product Pricing -->
-        <div class="product-price">
+        <div class="product-price mb-5">
           <span>23.5$</span>
           <a href="#" class="cart-btn">Add to cart</a>
         </div>
       </div>
-
-
+     </div>
     </div>
     <div class = "tab">
       <table style="border: none;">

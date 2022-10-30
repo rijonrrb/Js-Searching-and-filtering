@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../SSAD.html"> SSD </a> / <a href="./ssd4.php">HP EX900 M.2 120GB PCIe NVMe Internal SSD</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/ssd4.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/ssd4.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>HP EX900 M.2 120GB PCIe NVMe Internal SSD</h2>
           <p><b>Key Features</b></p>
           <p>MPN: AD120GBS20S3S<br>
@@ -33,16 +34,13 @@
             3D TLC NAND<br>
           Compatibility: Windows, Mac OS X, Linux</p>
         </div>
-
-
         <!-- Product Pricing -->
-        <div class="product-price">
+        <div class="product-price mb-5">
           <span>22$</span>
           <a href="#" class="cart-btn">Add to cart</a>
         </div>
       </div>
-
-
+     </div>
     </div>
     <div class = "tab">
       <table style="border: none;">

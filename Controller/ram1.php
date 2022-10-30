@@ -18,12 +18,13 @@
     <a href="../index.php"><button class="btnn"><i class="fa fa-home"></i></button></a> /<a href="../RAAM.html"> RAM </a> / <a href="./ram1.php">PNY XLR8 Gaming EPIC-X RGB 8GB DDR4 3200MHz Desktop RAM</a>
     <br><br><br>
     <div class="containerR">
-      <div class="left-column">
-        <img src="../css/Pictures/ram1.jpg">
+      <div class="row justify-content-md-center">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src="../css/Pictures/ram1.jpg" class="img-fluid">
       </div>
 
-      <div class="right-column">
-        <div class="product-description">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="product-description mb-4">
           <h2>PNY XLR8 Gaming EPIC-X RGB 8GB DDR4 3200MHz Desktop RAM</h2>
           <p><b>Key Features</b></p>
           <p>Model: PNY XLR8 Gaming EPIC-X RGB<br>
@@ -36,13 +37,12 @@
 
 
         <!-- Product Pricing -->
-        <div class="product-price">
-          <span>26$</span>
+        <div class="product-price mb-5">
+          <span><strong>26$</strong></span>
           <a href="#" class="cart-btn">Add to cart</a>
         </div>
       </div>
-
-
+     </div>
     </div>
     <div class = "tab">
       <table style="border: none;">
